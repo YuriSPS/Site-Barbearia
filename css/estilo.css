@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../img/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* comando para fixar background, ira ficar fixo mesmo se o scroll do mouse mexer */
+    /* background-attachment: fixed; */
+}
+
+/* Layout */
+html,body, #home {
+    height: 100%;
+    /* Esconder a barra horizontal */
+    overflow-x: hidden;
+}
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.borda-divisor {
+    border-top: 1px solid black;
+}
+
+.btn-custom {
+    background: #000;
+    color: #f2f2f2;
+    border-radius: 300px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    border: 1px solid #000;
+    background: #f2f2f2;
+    color: #000;
+}
+
+/* Inicio */
+
+/* Cabecalho */
+html, body, #home {
+    height: 100%;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+nav {
+    border-bottom: 1px solid rgba(242, 242, 242, 0.1);
+}
+
+#navbar-principal {
+    line-height: 1px;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.1);
+}
+
+#navbar-principal .navbar-nav .nav-link:hover {
+    color: #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+
+}
+
+nav.navbar-transparente {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* capa */
+
+.centralizar{
+    text-align: center;
+}
+
+#home h4 {
+    color: white;
+    font-weight: 400;
+}
+
+/* Conteudo 1 - Bem Vindos */
+#bemvindos {
+    background: white;
+}
+
+#bemvindos p {
+    font-weight: 250;
+}
+
+
+/* Conteudo 2 - Produtos */
+#produtos {
+    background: white;
+}
+
+/* Rodape */
+#rodape {
+    background: black;
+    padding: 30px 0px;
+}
+
+#rodape h4 {
+    font-size: 0.8em;
+    color: #ddd;
+    text-transform: uppercase;
+}
+
+#rodape .navbar-nav a {
+    color: #919496;;
+}
+
+#rodape ul {
+    list-style: none;
+}
+
+#rodape ul li {
+    float: right;
+    margin: 0px 15px;
+}
+
+#rodape ul li i {
+    color: #919496;;
+    ;
+}
+
+/* Institucional */
+
+#quemsomos {
+    background: white;
+}
+
+.title {
+    font-size: 3.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#quemsomos h4 {
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Servicos */
+
+#servicos {
+    background: white;
+}
+
+.servicos-area{
+    /* background-color: violet; */
+    padding: 30px 15px 0px 15px ;
+    border: 2px solid black;
+    min-height: 450px;
+    position: relative;
+
+}
+
+.img-servicos {
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    z-index: 2;
+}
+
+.servicos-title {
+    /* background: blue; */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #414042;
+}
+
+.servicos-item {
+    font-family: 'Comic Sans MS',sans-serif;
+    color: black;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+.servicos-valor {
+    font-family: 'Comic Sans MS',sans-serif;
+    text-align: end;
+    color: black;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
